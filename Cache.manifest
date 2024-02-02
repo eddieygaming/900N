@@ -96,14 +96,14 @@ WildeModz-1.32.bin.bz2
 WildeModz-1.33.bin.bz2
 WildeModz-1.38.bin.bz2
 wtsb.bin
-module\chain.mjs
-module\constants.mjs
-module\int64.mjs
-module\mem.mjs
-module\memtools.mjs
-module\offset.mjs
-module\rw.mjs
-module\utils.mjs
+chain.mjs
+constants.mjs
+int64.mjs
+mem.mjs
+memtools.mjs
+offset.mjs
+rw.mjs
+utils.mjs
 
 NETWORK: 
 * 
