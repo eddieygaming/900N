@@ -17,14 +17,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
 // This module are for utilities that depend on running the exploit first
 
-import { Int } from 'int64.mjs';
-import { Addr, mem } from 'mem.mjs';
-import { align } from 'utils.mjs';
-import { KB } from 'constants.mjs';
-import { read32 } from 'rw.mjs';
+import { Int } from './int64.mjs';
+import { Addr, mem } from './mem.mjs';
+import { align } from './utils.mjs';
+import { KB } from './constants.mjs';
+import { read32 } from './rw.mjs';
 
-import * as rw from 'rw.mjs';
-import * as o from 'offset.mjs';
+import * as rw from './rw.mjs';
+import * as o from './offset.mjs';
 
 // creates an ArrayBuffer whose contents is copied from addr
 export function make_buffer(addr, size) {
