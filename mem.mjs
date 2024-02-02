@@ -15,7 +15,7 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-import { Int } from './int64.mjs';
+import { Int } from 'int64.mjs';
 import {
     read16,
     read32,
@@ -23,8 +23,8 @@ import {
     write16,
     write32,
     write64,
-} from './rw.mjs';
-import * as o from './offset.mjs';
+} from 'rw.mjs';
+import * as o from 'offset.mjs';
 
 export let mem = null;
 
