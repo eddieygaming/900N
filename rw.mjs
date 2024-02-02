@@ -15,7 +15,7 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-import { Int } from './int64.mjs';
+import { Int } from '/int64.mjs';
 
 // view.buffer is the underlying ArrayBuffer of a TypedArray, but since we will
 // be corrupting the m_vector of our target views later, the ArrayBuffer's
